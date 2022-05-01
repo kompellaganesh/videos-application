@@ -6,7 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.MovieHeader{
+  padding: 2%;
+  background-color: burlywood;
+  font-style:oblique;
+  font-family: fantasy;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

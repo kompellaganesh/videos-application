@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+  
+    grid-template-columns: repeat(auto-fit, minmax(0, min(100%/1, max(100px, 100%/3))));
+
+    padding: 2% 20% 20% 20%;
+  }
+  .grid-item {
+    background-color: #448944;
+    border: 2px solid rgba(9, 240, 248, 0.8);
+    padding: 20px;
+    font-size: 100%;
+    color: #ffffff;
+    text-align: center;
+    overflow:hidden;
+  }
+
+
+img {
+     width: 70%;
+     height: 70%;
+}
+.grid-item:hover{
+    /* grid-column: span 2; */
+    border: solid 2px burlywood;
+    margin: -5% 0 0 -5%;
+ }
